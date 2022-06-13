@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.42",
+    "@types/ws": "^8.5.3",
+    "express": "^4.18.1",
+    "typescript": "^4.7.3",
+    "ws": "^8.7.0"
+  },
+  "scripts": {
+    "start:build": "tsc --watch",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "concurrently": "^7.2.1",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "query-string": "^7.1.1"
+  },
+  "name": "chadwme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkoltonowski/ChadWMe.git"
+  },
+  "author": "mKolt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkoltonowski/ChadWMe/issues"
+  },
+  "homepage": "https://github.com/mkoltonowski/ChadWMe#readme",
+  "description": ""
+}
